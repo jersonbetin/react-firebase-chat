@@ -7,6 +7,27 @@
 [1]: img/1.png "home"
 [2]: img/2.png "chat"
 
+
+##Structure
+
+```
+├── build/
+│   ├── index.html
+│   └── style.css
+├── src/
+│   ├── components/
+│   │  ├── chat.jsx
+│   │  ├── chatInput.jsx
+│   │  ├── chatMessage.jsx
+│   │  ├── header.jsx
+│   │  └── index.jsx
+│   ├── config/
+│   │  └── index.js
+│   └── index.jsx
+├── package.json
+└── webpack.config.js
+```
+
 ##Installation
 ```shell
   git@github.com:jersonbetin/react-firebase-chat.git
@@ -28,3 +49,4 @@
 ```shell
   $ npm start
 ```
+
